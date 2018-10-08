@@ -178,9 +178,16 @@
 template('footer','<div> 我是dibu </div> ');/*v:1*/
 template('header',function($data,$filename
 /*``*/) {
-'use strict';var $utils=this,$helpers=$utils.$helpers,$escape=$utils.$escape,data=$data.data,$out='';$out+='<nav>12312131</nav> <div>';
+'use strict';var $utils=this,$helpers=$utils.$helpers,$escape=$utils.$escape,data=$data.data,$each=$utils.$each,list=$data.list,$value=$data.$value,$index=$data.$index,$out='';$out+='<nav>12312131</nav> <div>';
 $out+=$escape(data);
-$out+='</div> <div>aa</div>';
+$out+='</div> <div>aa</div> ';
+$each(list,function($value,$index){
+$out+=' <div>';
+$out+=$escape($index);
+$out+=' ';
+$out+=$escape($value);
+$out+='</div> ';
+});
 return new String($out);
 });/*v:1*/
 template('D:/demo/src/views/home','<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <title>domo</title> </head> <body> <div id="header"></div> <div class="content"> hello world! </div> <div id="footer"> </div> <script src="../lib/template.js"></script> <script src="../asset/js/home.js"></script> </body> </html>');
