@@ -175,7 +175,6 @@
     if (typeof define === 'function') {define(function() {return template;});} else if (typeof exports !== 'undefined') {module.exports = template;} else {this.template = template;}
     
     /*v:1*/
-template('D:/demo/src/views/home','<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <title>domo</title> </head> <body> <div id="header"></div> <div class="content"> hello world! </div> <div id="footer"> </div> <script src="../lib/template.js"></script> <script src="../asset/js/home.js"></script> </body> </html>');/*v:1*/
 template('footer','<div> 我是dibu </div> ');/*v:1*/
 template('header',function($data,$filename
 /*``*/) {
@@ -183,6 +182,7 @@ template('header',function($data,$filename
 $out+=$escape(data);
 $out+='</div> <div>aa</div>';
 return new String($out);
-});
+});/*v:1*/
+template('D:/demo/src/views/home','<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <title>domo</title> </head> <body> <div id="header"></div> <div class="content"> hello world! </div> <div id="footer"> </div> <script src="../lib/template.js"></script> <script src="../asset/js/home.js"></script> </body> </html>');
 
 }()

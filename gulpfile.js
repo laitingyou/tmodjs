@@ -20,5 +20,5 @@ gulp.task('server',['template'],  function () {
     },
     port: '8080'
   })
-  gulp.watch('/templates/**/*', [ 'template' ])
+  gulp.watch('src/template/**/*', [ 'template' ])
 })
