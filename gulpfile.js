@@ -11,7 +11,7 @@ gulp.task('template', function() {
 	return stream;
 })
 
-gulp.task('server',['art'],  function () {
+gulp.task('server',['template'],  function () {
   browserSync.init({
     files: [ 'src/**/*' ],
     server: {
