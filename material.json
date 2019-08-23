@@ -1,17 +1,37 @@
 {
-    "name": "qqewwqeqw",
-    "title": "material-lib",
-    "description": "",
-    "repository": {
-        "url": "https://github.com/laitingyou/tmodjs.git",
-        "private": false,
-        "auth": {}
-    },
-    "map": {
-        "components": [],
-        "blocks": [],
-        "pages": [],
-        "templates": []
-    },
-    "materialId": 32
+	"name": "qqewwqeqw",
+	"title": "material-lib",
+	"description": "",
+	"repository": {
+		"url": "https://github.com/laitingyou/tmodjs.git",
+		"private": false,
+		"auth": {}
+	},
+	"map": {
+		"components": [],
+		"blocks": [
+			{
+				"name": "zaza",
+				"version": "1.0.0",
+				"title": "qqqqqqqq",
+				"description": "qweqweqwqweqw2e",
+				"type": "block",
+				"platform": [
+					"PC",
+					"MOBILE"
+				],
+				"homePage": "",
+				"category": [
+					"form"
+				],
+				"screenshots": [],
+				"path": "blocks/Zaza",
+				"origin": "https://github.com/laitingyou/tmodjs.git",
+				"hash": "ff9462eab3bb7e27e54cfbdd8134057b"
+			}
+		],
+		"pages": [],
+		"templates": []
+	},
+	"materialId": 32
 }
