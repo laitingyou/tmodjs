@@ -1,0 +1,19 @@
+{
+	"name": "zaza",
+	"version": "1.0.0",
+	"title": "qqqqqqqq",
+	"description": "qweqweqwqweqw2e",
+	"type": "block",
+	"platform": [
+		"PC",
+		"MOBILE"
+	],
+	"homePage": "",
+	"category": [
+		"form"
+	],
+	"screenshots": [],
+	"path": "blocks/Zaza",
+	"origin": "https://github.com/laitingyou/tmodjs.git",
+	"hash": "ff9462eab3bb7e27e54cfbdd8134057b"
+}
