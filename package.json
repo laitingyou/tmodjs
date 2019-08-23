@@ -1,23 +1,23 @@
 {
-  "name": "demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "scripts": {
-    "start": "gulp server",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.26.0",
-    "gulp": "^3.9.1",
-    "gulp-tmod": "^2.0.3"
-  },
-  "tmodjs-config": {
-  	
-  },
-  "dependencies": {
-    "art-template": "^4.13.1"
-  }
+    "name": "qqewwqeqw",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/laitingyou/tmodjs.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "main": "index.js",
+    "scripts": {
+        "check": "dpsl-cli check"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "dpsl-cli check"
+        }
+    },
+    "devDependencies": {
+        "husky": "^3.0.4"
+    }
 }

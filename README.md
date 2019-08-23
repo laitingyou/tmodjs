@@ -1,10 +1,6 @@
-# tmodjs
-js模板预编译
+## serverless-template
 
-
-## 运行
+### ????
 ```
-1、npm install
-2、npm start
+npm install
 ```
-### 语法参考 https://aui.github.io/art-template/docs/syntax.html#Loop

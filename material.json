@@ -1,0 +1,17 @@
+{
+    "name": "qqewwqeqw",
+    "title": "material-lib",
+    "description": "",
+    "repository": {
+        "url": "https://github.com/laitingyou/tmodjs.git",
+        "private": false,
+        "auth": {}
+    },
+    "map": {
+        "components": [],
+        "blocks": [],
+        "pages": [],
+        "templates": []
+    },
+    "materialId": 32
+}
